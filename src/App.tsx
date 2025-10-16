@@ -964,8 +964,8 @@ function App() {
             <div>
               <h4 className="font-semibold mb-4">Company</h4>
               <ul className="space-y-2 text-sm text-gray-400">
-                <li><a href="#" className="hover:text-white transition">About Us</a></li>
-                <li><a href="#" className="hover:text-white transition">Careers</a></li>
+                <li><a href="/about" className="hover:text-white transition">About Us</a></li>
+                <li><a href="/about" className="hover:text-white transition">Careers</a></li>
                 <li><a href="/blogs" className="hover:text-white transition">Blogs</a></li>
                 <li><a href="/legal" className="hover:text-white transition">Contact</a></li>
               </ul>

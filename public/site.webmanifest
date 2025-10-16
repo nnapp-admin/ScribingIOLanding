@@ -1,0 +1,27 @@
+{
+  "name": "AI Medical Scribe",
+  "short_name": "Scribing.io",
+  "description": "AI Medical Scribe transforms how doctors document patient visits — fast, accurate, and HIPAA-compliant medical transcriptions powered by AI.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f172a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

@@ -48,18 +48,6 @@ const AboutCareer: React.FC = () => {
               Contact Us
             </a>
 
-            <a
-              href="https://studio--studio-2835712508-c6d6d.us-central1.hosted.app"
-              className="text-gray-600 hover:text-gray-900 transition"
-            >
-              Sign In
-            </a>
-            <a
-              href="https://studio--studio-2835712508-c6d6d.us-central1.hosted.app"
-              className="bg-gradient-to-r from-orange-500 to-pink-500 text-white px-6 py-2 rounded-full hover:shadow-lg transition"
-            >
-              Get Started
-            </a>
           </div>
         </div>
       </header>
