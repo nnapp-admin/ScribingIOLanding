@@ -1,0 +1,12 @@
+# robots.txt for https://scribing.io
+
+User-agent: *
+Allow: /
+
+# Block internal dev routes (if any)
+Disallow: /src/
+Disallow: /node_modules/
+Disallow: /dist/
+
+# Sitemap location
+Sitemap: https://scribing.io/sitemap.xml

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- ✅ Basic SEO Setup -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Medical Scribe | Smarter Clinical Documentation</title>
+    <meta
+      name="description"
+      content="AI Medical Scribe transforms how doctors document patient visits — fast, accurate, and HIPAA-compliant medical transcriptions powered by AI."
+    />
+    <meta
+      name="keywords"
+      content="AI medical scribe, medical transcription, clinical documentation, healthcare AI, doctor tools, HIPAA compliant, scribing.io"
+    />
+    <meta name="author" content="Scribing.io" />
+
+    <!-- ✅ Favicon and App Icons (placed inside /public) -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#0f172a" />
+
+    <!-- ✅ Open Graph (for social sharing) -->
+    <meta property="og:title" content="AI Medical Scribe | Smarter Clinical Documentation" />
+    <meta
+      property="og:description"
+      content="Automate and simplify your clinical documentation with AI-powered medical scribing technology."
+    />
+    <meta property="og:image" content="/og-image.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://scribing.io" />
+
+    <!-- ✅ Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AI Medical Scribe | Smarter Clinical Documentation" />
+    <meta
+      name="twitter:description"
+      content="AI-powered medical scribing that saves time and ensures accuracy in patient records."
+    />
+    <meta name="twitter:image" content="/og-image.jpg" />
+
+    <!-- ✅ Structured Data (Schema.org for Google Rich Snippets) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "AI Medical Scribe",
+        "operatingSystem": "Web",
+        "applicationCategory": "MedicalSoftware",
+        "description": "AI-powered medical scribe that automatically transcribes and structures doctor-patient conversations.",
+        "url": "https://scribing.io",
+        "author": {
+          "@type": "Organization",
+          "name": "Scribing.io"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }
+    </script>
+
+    <!-- ✅ Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- ✅ React + ReactDOM -->
+    <script src="https://cdn.jsdelivr.net/npm/react@18/umd/react.production.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/react-dom@18/umd/react-dom.production.min.js"></script>
+
+    <!-- ✅ Babel for JSX -->
+    <script src="https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js"></script>
+  </head>
+
+  <body class="bg-gray-50 text-gray-900 antialiased">
+    <div id="root"></div>
+
+    <!-- ✅ Main Entry -->
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- ✅ NoScript Fallback -->
+    <noscript>
+      <p>
+        This page requires JavaScript to function. Please enable JavaScript in your browser to experience the AI Medical
+        Scribe demo.
+      </p>
+    </noscript>
+  </body>
+</html>
